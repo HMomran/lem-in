@@ -19,7 +19,7 @@ func main() {
 		FileTypeCheck = append(FileTypeCheck, File[i])
 	}
 	if string(FileTypeCheck) == "txt." {
-		Parse.ParseFile(file[0])
+		Parse.Parsing(file[0])
 	} else {
 		fmt.Println("File type is not supported. Please provide a .txt file.")
 		os.Exit(0)
